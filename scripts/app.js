@@ -154,7 +154,7 @@
         this.skybox = (level.skybox ? new Bitmap(level.skybox.path, level.skybox.width, level.skybox.height) :
                                       new Bitmap("assets/blue_BG.jpg", 1920, 1200));
         this.wallTexture = (level.wallTexture ? new Bitmap(level.wallTexture.path, level.wallTexture.width, level.wallTexture.height) :
-                                               new Bitmap("assets/wall4.jpg", 1920, 996));
+                                               new Bitmap("assets/Wall4.jpg", 1920, 996));
         this.light = (level.light ? level.light : 0.6);
     }
 
