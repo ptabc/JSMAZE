@@ -1,0 +1,36 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>3D迷宮</title>
+    <link rel="stylesheet" href="amaze.min.css" />
+    <script async data-main="scripts/app" src="scripts/require.js"></script>
+	
+</head>
+<body>
+    <div id="instructions">        
+    </div>
+    <div id="game-meta">
+        <div id="currentLevel"></div>
+        <div id="position"></div>
+        <input id="restartLevel" type="button" value="Level Restart" style="display:none"/>
+        <input id="restartGame" type="button" value="Game Restart" style="display:none"/>
+        <input id="nowtime" type="txt" size="16" />
+        <input id="runtime" type="txt" size="16" />
+    </div>
+    <canvas id="display" />
+
+//Todo: Below is Google Analytics Object 
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-102241706-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
